@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #000;
+}
+
+.mini-title {
+    color: #3f51ff;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.main-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+section {
+    padding: 60px 100px;
+}
+
+/* CONTACT SECTION */
+.contact-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.message-box {
+    width: 60%;
+    height: 220px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+}
+
+.avatars {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    background: #567;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -6px;
+    font-size: 14px;
+}
+
+.form-box {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-box input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.send-btn {
+    background: #3f51ff;
+    padding: 12px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card {
+    text-align: center;
+    width: 30%;
+}
+
+.icon-circle {
+    font-size: 28px;
+    margin-bottom: 10px;
+    background: #3f51ff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+/* PHOTOS */
+.photo-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.photo-grid img {
+    width: 32%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 60px 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block {
+    width: 22%;
+}
+
+.footer-block a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 6px 0;
+}
+
+.social-icons span {
+    font-size: 26px;
+    margin-right: 10px;
+}
